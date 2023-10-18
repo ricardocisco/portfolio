@@ -5,8 +5,8 @@ import finder from '../../images/finder.png'
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen bg-my-image bg-cover bg-center">
-      <div className="flex">
+    <div className="h-full w-full bg-my-image bg-cover bg-center">
+      <div className="flex flex-col items-center h-full justify-between">
         <nav className="nav">
           <ul className="ulist">
             <li>
@@ -78,20 +78,18 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-      </div>
-      <div className="flex justify-center items-end">
         <footer className="flex justify-center bg-neutral-100 bg-opacity-60 rounded-t-lg">
-            <div className="flex items-center">
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
-                <img src={finder} alt="finder" className="w-[80px]" />
+            <div className="flex items-center footer">
+                <img src={finder} alt="finder" className="" />
+                <img src={finder} alt="finder" className="w-[60px]" />
+                <img src={finder} alt="finder" className="w-[60px]" />
+                <img src={finder} alt="finder" className="w-[60px]" />
+                <img src={finder} alt="finder" className="w-[60px]" />
+                <img src={finder} alt="finder" className="w-[60px]" />
+                <img src={finder} alt="finder" className="w-[60px]" />
+                <img src={finder} alt="finder" className="w-[60px]" />
+                <img src={finder} alt="finder" className="w-[60px]" />
+                <img src={finder} alt="finder" className="w-[60px]" />
             </div>
         </footer>
       </div>
