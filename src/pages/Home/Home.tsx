@@ -2,6 +2,7 @@ import React from "react";
 import { FaApple, FaVolumeUp, FaBatteryFull } from "react-icons/fa";
 import { MdOutlineRestore, MdBluetooth, MdWifi } from "react-icons/md";
 import finder from '../../images/finder.png'
+import safari from '../../images/safari.png'
 
 
 const PropsIcon = {
@@ -104,7 +105,7 @@ export default function Home() {
         <footer className="flex justify-center bg-neutral-100 bg-opacity-60 rounded-t-lg overflow-hidden">
             <div className="flex items-center footer">
                 <img src={finder} alt="finder" className="" />
-                <img src={finder} alt="finder" className="" />
+                <img src={safari} alt="finder" className="" />
                 <img src={finder} alt="finder" className="" />
                 <img src={finder} alt="finder" className="" />
                 <img src={finder} alt="finder" className="" />
